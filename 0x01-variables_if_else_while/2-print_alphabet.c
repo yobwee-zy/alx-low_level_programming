@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main
+*main - prints the number in a...and newline
+*
 *
 * Return: Always (Success)
 */
