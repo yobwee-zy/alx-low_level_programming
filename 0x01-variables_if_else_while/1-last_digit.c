@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main please work
+* main - prints the number in a...and newline
 *
 * Return: Always (Success)
 */
