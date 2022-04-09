@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - prints the number in a...and newline
+*main - prints the alphabet in lowercase, followed by a new line
 *
 *
 * Return: Always (Success)
