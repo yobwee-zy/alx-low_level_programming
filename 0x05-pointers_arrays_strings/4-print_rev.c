@@ -4,7 +4,7 @@
  * _puts -print a string
  * @str: A pointer to an int that will be changed
  *
- * Return:void 
+ * Return:void
  */
 void print_rev(char *s)
 {
