@@ -1,4 +1,4 @@
-#include"main.h" 
+#include "main.h" 
  /** 
   * rev_string - prints reversed string, followed by a new line 
   * @s: pointer to the string to print 
@@ -11,7 +11,7 @@
 int len, i, half; 
 char temp; 
   
- for (len = 0 s[len] != '\0'; len++) 
+ for (len = 0; s[len] != '\0'; len++) 
        ; 
   
  i = 0; 
