@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_rev - prints a string in reverse order
- * @s: A pointer to an int that will be changed
- *    
- * Return:void which means answer is correct
+ * _puts -print a string
+ * @str: A pointer to an int that will be changed
+ *
+ * Return:void
  */
 void print_rev(char *s)
 {
