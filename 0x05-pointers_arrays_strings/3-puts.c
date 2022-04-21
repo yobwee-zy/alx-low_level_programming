@@ -2,16 +2,21 @@
 
 /**
  * _puts -print a string
- * @str:pointer char
- * return:void
+ * @str: A pointer to an int that will be changed
+ *
+ * Return:void 
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 int i;
-for (i = 0; str[i] != '\0'; i++)
+i = 0;
+while (s[i] != '\0')
 {
-_putchar(str[i]);
+i ++;
 }
-_putchar('\n');
-return;
+for (i = i - 1 ; i >= 0; i--)
+{
+_putchar (s[i]);
+}
+_putchar ('\n');
 }
