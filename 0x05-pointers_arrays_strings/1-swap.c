@@ -3,6 +3,7 @@
 /**
  * swap_int _ swaping 2 integer using a pointer
  * @a:interger
+ * @b: interger
  * Return:void
  */
 void swap_int(int *a, int *b)
