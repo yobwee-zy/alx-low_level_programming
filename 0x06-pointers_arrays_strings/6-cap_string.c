@@ -1,28 +1,32 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
- * leet - transform to leet
- * @s: char array string type
- * Return: s transformed
- */
-
-char *leet(char *s)
+  * cap_string - ...
+  * @s: ...
+  *
+  * Return: char value
+  */
+char *cap_string(char *s)
 {
-	int i, ii;
-	char s1[] = "aeotl";
-	char S1[] = "AEOTL";
-	char s2[] = "43071";
+	int a = 0, i;
+	int cspc = 13;
+	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[a])
 	{
-		for (ii = 0; ii < 5; ii++)
+		i = 0;
+
+		while (i < cspc)
 		{
-			if (s[i] == s1[ii] || s[i] == S1[ii])
-			{
-				s[i] = s2[ii];
-				break;
-			}
+			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
+				s[a] -= 32;
+
+			i++;
 		}
+
+		a++;
 	}
+
 	return (s);
 }
