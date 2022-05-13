@@ -1,16 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-#ifndef __FILE__
-#define __FILE__
-#endif
 
 /**
- *  * main - program that prints the name of the file it was compiled from
- *   * followed by a new line
- *    *
- *     * Return: zero
- *      */
-
+ *  * main - prints the name of the file.
+ *   *
+ *    * Return: Always 0.
+ *     */
 int main(void)
 {
 		printf("%s\n", __FILE__);
