@@ -1,12 +1,10 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- *  * main - prints the name of the file.
- *   *
- *    * Return: Always 0.
- *     */
-int main(void)
-{
-		printf("%s\n", __FILE__);
-			return (0);
-}
+#include <stdio.h>
+#include "0-object_like_macro.h"
+#include "1-pi.h"
+#include "3-function_like_macro.h"
+#include "4-sum.h"
+
+#endif 
