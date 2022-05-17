@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - function that returns the sum of all its parameters
+* sum_them_all - function that returns the sum of all its parameters
  * @n: const unsigned int passed from main,
  * count argument indicating the number
  * of variadic arguments
