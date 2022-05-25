@@ -1,12 +1,16 @@
+#include "lists.h"
 #include <stdio.h>
 
+void print_before_main(void) __attribute__ ((constructor));
+
 /**
- * main - check the code for Holberton School students.
+ * print_before_main - function that prints before the main
+ * fonction is executed
  *
- * Return: Always 0.
+ * Return: void
  */
-int main(void)
+void print_before_main(void)
 {
-	printf("(A tortoise, having pretty good sense of a hare's nature, challenges one to a race.)\n");
-	return (0);
+printf("You're beat! and yet, you must allow,\n"
+"I bore my house upon my back!\n");
 }
